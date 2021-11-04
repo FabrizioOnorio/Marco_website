@@ -25,11 +25,11 @@ body {
 
 h1 {
   text-align: left;
-  font-size: 8em;
+  font-size: 10vw;
   color: #403D39;
   margin-top: 0;
   font-family: 'Bebas Neue', cursive;
-  padding-left: 100px;
+  padding-left: 80px;
 
 }
 
@@ -76,6 +76,7 @@ p {
   width: 100%;
   justify-content: center;
   padding: 5px;
+  padding-right: 16px;
 }
 
 .div.image {
@@ -90,7 +91,6 @@ p {
   grid-template-columns: 1fr 1fr;
   padding: 35px;
   margin-bottom: 16px;
-  background-color: #403D39;
 }
 
 .contacts {
@@ -102,7 +102,7 @@ p {
 a:link {
   background-color: transparent;
   text-decoration: none;
-  color: rgb(152, 111, 123);
+  color: rgba(235, 94, 40);
 }
 
 a:visited {

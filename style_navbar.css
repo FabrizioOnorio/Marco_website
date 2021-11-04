@@ -12,6 +12,9 @@ li {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .hamburger {
@@ -47,7 +50,7 @@ li {
 .nav-link{
   font-size: 1rem;
   font-weight: 600;
-  color: #475569;
+  color: rgba(235, 94, 40,);
 }
 
 .nav-link:hover{
