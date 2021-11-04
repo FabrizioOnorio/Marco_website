@@ -1,0 +1,33 @@
+.project_div {
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 7px;
+  padding: 24px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.project_div2 {
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 7px;
+  padding: 24px;
+}
+
+.description_project {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.project_img {
+  min-width: 50%;
+  width: 90%;
+  margin-left: 10px;
+  border-radius: 7px;
+}
+
+@media(max-width: 568px) {
+  .project_div {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,28 @@
+ul {
+
+  padding: 16px;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 7px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.icon {
+  font-size: 3.4em;
+  margin-bottom: 18px;
+  text-decoration: none;
+}
+
+@media(max-width: 728px) {
+  ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 728px) {
+  ul {
+    grid-template-columns: 1fr fr;
+  }
+}
