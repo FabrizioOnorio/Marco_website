@@ -34,12 +34,14 @@ li {
   justify-content: space-evenly;
   background-color: #CCC5B9;
   margin: 0 auto;
+  /* margin-left: 120px;
+  margin-right: 120px; */
   font-size:10%;
 }
 
 .nav-item {
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
 }
 
 .nav-link{

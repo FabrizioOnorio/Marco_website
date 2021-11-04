@@ -1,6 +1,5 @@
 .project_div {
   background-color: rgba(235, 94, 40, 0.33);
-  border-radius: 7px;
   padding: 24px;
   margin-bottom: 40px;
   display: grid;
@@ -9,7 +8,6 @@
 
 .project_div2 {
   background-color: rgba(235, 94, 40, 0.55);
-  border-radius: 7px;
   padding: 24px;
 }
 
@@ -23,7 +21,6 @@
   min-width: 50%;
   width: 90%;
   margin-left: 10px;
-  border-radius: 7px;
 }
 
 @media(max-width: 568px) {
