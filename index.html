@@ -1,51 +1,49 @@
 <DOCTYPE! html>
   <html>
     <head>
-      <title>Fabrizio Onorio - Full-Stack Web Developer</title>
+      <title>Marco Onorio - Artista</title>
       <link rel="icon" href="/favicon.ico" type="image/png">
       <meta name="description" content="Full-stuck web developer, Oslo - Norway">
       <meta name="keywords" content="web developer, portfolio, javascript, ruby, ruby on rails, utvikler">
 
-      <meta property="og:title" content="Fabrizio Onorio - Web Developer" />
+      <meta property="og:title" content="Marco Onorio - Artista" />
       <meta property="og:type" content="website" />
-      <meta property="og:description" content="Full-stuck web developer, based in Oslo - Norway" />
+      <meta property="og:description" content="Artista, Brescia - Italia" />
       <meta property="og:image" content="/metaphoto3.png" />
       <meta property="og:url" content="/" />
-
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Kaisei+HarunoUmi&display=swap"
         rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+      <!-- link to css file -->
       <link rel="stylesheet" href="styles.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Besley&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <!-- end google fonts -->
     </head>
 
-    <header class="header">
+
+
+
+    <body>
+      <!-- nav bar -->
       <nav class="navbar">
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="./cv/cvFabrizioOnorio.pdf" target="blank" class="nav-link">download cv <i class="fas fa-download"></i></a>
+            <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">about</a>
+            <a href="#artist" class="nav-link">L'Artista</a>
           </li>
           <li class="nav-item">
-            <a href="#skills" class="nav-link">tech stack</a>
+            <a href="#art-stiles" class="nav-link">Stili d'Arte</a>
           </li>
           <li class="nav-item">
-            <a href="#projects" class="nav-link">projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">contact</a>
+            <a href="#contact" class="nav-link">Contatti</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -54,58 +52,48 @@
           <span class="bar"></span>
         </div>
       </nav>
-    </header>
-
-    <body>
+      <!-- end of nav bar -->
+      <!-- starts all the content -->
       <div class="container">
+
         <div class="title">
-          <svg class="logo" width="90" height="90" viewBox="0 0 87 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M61.7871 20.5478V23.0003H30.0362V37.782H55.4899V49.4483H30.0362V66.6826H27.5837V20.5478H61.7871Z"
-            fill="#004044" />
-            <circle cx="43.5001" cy="39.8175" r="38.9744" stroke="#004044" stroke-width="1.68605" />
-          </svg>
-          <h1>fAbrizio<br>
-            onorio</h1>
+          <h1>Marco Onorio</h1>
         </div>
-          <h2>Full-Stack Web Developer</h2>
+          <h2>Artista</h2>
 
 
-        <div class="profile" id="about">
-          <div>
-            <img src="./images/profile_picture.jpg" alt="Profile picture of Fabrizio" class="profile_image">
-          </div>
+        <div class="profile" id="home">
 
-          <div class="paragraf">
-            <p>Hello, I'm Fabrizio! <br><br>
-              After many years in fashion I joined a coding bootcamp called <a href="https://www.lewagon.com/" target="_blank">Le Wagon</a>. There I dived into Ruby, Ruby on Rails, HTML, CSS and
-              JavaScript. It's been a very fun and intense journey. <br>
-              And I love Coding 🚀
-
-            </p>
-            <!-- <svg width="283" height="284" viewBox="0 0 283 284" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M207.225 76.5393L151.827 283.287L0.47667 131.937L207.225 76.5393Z" fill="#E9D2D8" />
-            </svg> -->
-          </div>
-        </div>
-        <div id="skills">
-          <h2>Tech Stack</h2>
-            <ul>
-              <li class="icon"><i class="devicon-html5-plain-wordmark"></i></li>
-              <li class="icon"><i class="devicon-css3-plain-wordmark"></i></li>
-              <li class="icon"><i class="devicon-rails-plain"></i></li>
-              <li class="icon"><i class="devicon-ruby-plain-wordmark"></i></li>
-              <li class="icon"><i class="devicon-bootstrap-plain-wordmark"></i></li>
-              <li class="icon"><i class="devicon-javascript-plain"></i></li>
-              <li class="icon"><i class="devicon-github-original-wordmark"></i></li>
-              <li class="icon"><i class="devicon-git-plain-wordmark"></i></li>
-              <li class="icon"><i class="devicon-vscode-plain"></i></li>
-              <li class="icon"><i class="devicon-postgresql-plain-wordmark"></i></li>
-              <li class="icon"><i class="devicon-heroku-plain-wordmark"></i></li>
-              <li class="icon"><i class="devicon-figma-plain"></i></li>
-            </ul>
         </div>
 
-        <div id="projects">
+        <!-- Artist's profile div -->
+        <div id="artist">
+          <h2>L'Artista</h2>
+          <div class="profile" id="about">
+            <div>
+              <img src="./images/profile_picture.jpeg" alt="Profile picture of Fabrizio" class="profile_image">
+            </div>
+
+
+              <p>Marco Onorio è nato nel 1982 a Orzinuovi ed è cresciuto a Rudiano in provincia di Brescia.
+              Pittore, inizia il suo percorso artistico interessandosi da autodidatta a disegni e fumetti di ogni genere.
+              Nel 2007, alla ricerca di nuove prospettive, inizia i propri studi di pittura alla Scuola d’Arti e Mestieri “F.
+              Ricchino” di Rovato (BS).
+              La svolta fondamentale arriva con la scoperta dell’arte moderna, grazie alla guida del maestro Armando Tomasi che, con
+              la propria influenza e passione, insegna ad Onorio ad “aprire” la mente d’artista al fine di creare opere originali
+              attraverso una personale forma di astrattismo.
+              Le opere di Marco Onorio nascono, emotivamente, dal bisogno di evasione dai canoni della società moderna. Dal punta di
+              vista tecnico, l’inclinazione all'arte "materica" si fonde con una meticolosa ricerca non solo del colore ma altresì di
+              nuovi materiali, con il fine di conferire all’arte della pittura una nuova forma, tridimensionale e profonda.
+              I quadri di Onorio, infatti, si caratterizzano per l’utilizzo simbiotico di rete in fibra di vetro e di una schiuma di
+              sua creazione. Come afferma egli stesso la schiuma e la rete sono rispettivamente la parte organica e scheletrica
+              dell’opera, il colore, invece, ne è l’anima, la vita, lo spirito e proprio come un essere vivente, nonostante un nome o
+              un titolo, ogni opera può dar luogo a molteplici interpretazioni.</p>
+            </div>
+
+        </div>
+
+        <div id="art-stiles">
           <h2>projects</h2>
             <!-- start of the game-of-life project card -->
           <div class="project_div">

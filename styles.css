@@ -8,13 +8,13 @@ html {
 
 body {
   font-family: 'Major Mono Display', monospace;
-  background: #e0eec6;
-  color: #004044;
+  background: #252422;
+  color: #CCC5B9;
 }
 
 .container {
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding: 16px;
 }
 
@@ -47,9 +47,9 @@ h3 {
 }
 
 p {
-  font-family: 'Kaisei HarunoUmi', serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 0px;
+  margin-top: 0px;
   font-size: 1.3em;
 }
 
@@ -59,11 +59,9 @@ p {
 
 .profile_image {
   min-width: 50%;
-  width: 80%;
-  margin-left: 10px;
-  border-radius: 7px;
+  width: 100%;
   justify-content: center;
-
+  padding: 5px;
 }
 
 .div.image {
@@ -76,9 +74,10 @@ p {
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding: 35px;
+
   margin-bottom: 16px;
+  background-color: #403D39;
 }
 
 .contacts {
