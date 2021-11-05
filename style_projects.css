@@ -1,6 +1,7 @@
 .project_div {
-  background-color: rgba(235, 94, 40, 0.33);
+  vertical-align: text-top;
   padding: 24px;
+  margin-left: 20px;
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr
@@ -9,12 +10,9 @@
 .project_div2 {
   background-color: rgba(235, 94, 40, 0.55);
   padding: 24px;
+
 }
 
-.description_project {
-  display: flex;
-  justify-content: space-evenly;
-}
 
 
 .project_img {

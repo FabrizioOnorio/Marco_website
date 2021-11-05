@@ -1,26 +1,21 @@
 @import "style_icons.css";
 @import "style_projects.css";
 @import "style_navbar.css";
+@import "page_about.css";
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Major Mono Display', monospace;
   background: #252422;
   color: #CCC5B9;
 }
 
-.container {
-  margin-left: 80px;
-  margin-right: 80px;
-  padding: 16px;
-}
+
 
 .title {
- color: white;
- /* padding-top: 330px; */
+ color: #CCC5B9;
 }
 
 h1 {
@@ -28,7 +23,7 @@ h1 {
   font-size: 10vw;
   color: #403D39;
   margin-top: 0;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
   padding-left: 80px;
   position: absolute;
   top: 300px;
@@ -40,17 +35,20 @@ h2 {
   text-align: center;
   margin-top: 24px;
   margin-bottom: 24px;
-  font-size: 1.6em;
-  color: #FFFCF2;
+  font-size: 8vw;
+  color: #CCC5B9;
+  font-family: 'Bebas Neue';
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 7vw;
   margin-bottom: 30px;
+  font-family: 'Bebas Neue';
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Inconsolata', monospace;
   padding-top: 0px;
   margin-top: 0px;
   font-size: 1.3em;
@@ -62,7 +60,12 @@ p {
 
 .banner {
   margin-top: 0;
-  background-image: url("./images/studio.jpeg");
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("./images/studio.jpeg");
   height: 650px;
   position: relative;
   background-position: center;
