@@ -87,6 +87,7 @@ li {
         cursor: pointer;
         position: fixed;
         padding-left: 0;
+        z-index: -1;
     }
 
 }
