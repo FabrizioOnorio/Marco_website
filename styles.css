@@ -71,6 +71,7 @@ p {
   background-position: center;
   display: block;
   background-size: cover;
+  z-index: -1;
 }
 
 .profile_image {
