@@ -11,10 +11,9 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  padding: 1rem 1.5rem;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .hamburger {
@@ -87,7 +86,6 @@ li {
         cursor: pointer;
         position: fixed;
         padding-left: 0;
-        z-index: +1;
     }
 
 }
