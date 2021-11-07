@@ -11,8 +11,19 @@ ul {
 .icon {
   font-size: 3.4em;
   margin-bottom: 18px;
-  text-decoration: none;
+
 }
+
+ol {
+  text-align: center;
+  font-size: 3.4em;
+  text-decoration: none;
+  display: inline;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+
 
 @media(max-width: 728px) {
   ul {

@@ -60,6 +60,10 @@ p {
   font-size: 1.3em;
 }
 
+.p-centered {
+  text-align: center;
+}
+
 .empty {
   height: 10px;
 }
@@ -86,6 +90,10 @@ p {
   justify-content: center;
   padding: 5px;
   padding-right: 16px;
+}
+
+#immagine-studio-contatti {
+  width: 50%;
 }
 
 .div.image {
