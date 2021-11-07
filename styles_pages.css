@@ -1,0 +1,12 @@
+#h3-sthit {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.images {
+  padding: 0 35px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

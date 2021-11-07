@@ -2,6 +2,7 @@
 @import "style_projects.css";
 @import "style_navbar.css";
 @import "page_about.css";
+@import "styles_pages.css";
 
 html {
   scroll-behavior: smooth;
@@ -40,7 +41,7 @@ h2 {
   text-align: center;
   margin-top: 24px;
   margin-bottom: 24px;
-  font-size: 8vw;
+  font-size: 7vw;
   color: #CCC5B9;
   font-family: 'Bebas Neue';
 }
@@ -133,6 +134,9 @@ a:active {
 
 @media(max-width: 768px) {
   .profile {
+    grid-template-columns: 1fr;
+  }
+  .images {
     grid-template-columns: 1fr;
   }
   .container {
