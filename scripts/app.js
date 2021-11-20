@@ -1,3 +1,4 @@
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -19,6 +20,7 @@ function closeMenu() {
 }
 
 
+// map:
  mapboxgl.accessToken = 'pk.eyJ1IjoiZmFicml6aW8tb25vcmlvIiwiYSI6ImNrdzZpdGhuaDBva3Ayb3JobzA2dXRkeWsifQ.EDIljUREdTleOEGRQH5i8A';
 
   const geojson = {
