@@ -53,7 +53,6 @@ h3 {
 }
 
 p {
-  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Inconsolata', monospace;
   padding-top: 0px;
   margin-top: 0px;
@@ -76,7 +75,7 @@ p {
       rgba(0, 0, 0, 0.3)
     ),
     url("./images/studio.jpeg");
-  height: 650px;
+  height: 100vh;
   position: relative;
   background-position: center;
   display: block;
